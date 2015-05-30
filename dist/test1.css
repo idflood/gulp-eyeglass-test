@@ -1,4 +1,7 @@
 /* Test import of basic sass file in subfolder. */
+.sub1 {
+  content: "scss file imported"; }
+
 .summary {
   content: "0.2.0";
   content: "compile only scss files";
