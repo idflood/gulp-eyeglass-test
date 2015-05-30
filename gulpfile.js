@@ -2,6 +2,9 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 
 var eyeglass = require("eyeglass")({
+    importer: function(uri, prev, done) {
+        done(sass.NULL);
+    }
 }, sass.compiler);
 
 // Disable import once with gulp until we

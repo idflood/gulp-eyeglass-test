@@ -1,3 +1,9 @@
+.sub1 {
+  content: "scss file imported"; }
+
+.sub2 {
+  content: "sass file imported"; }
+
 .summary {
   content: "0.2.0";
   content: "compile both sass and scss files";

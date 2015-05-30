@@ -1,3 +1,6 @@
+.sub2 {
+  content: "sass file imported"; }
+
 .summary {
   content: "0.2.0";
   content: "compile only sass files";
