@@ -1,0 +1,10 @@
+/* Check that eyeglass-sample adds a .sassy{} (import eyeglass sass file). */
+@import "eyeglass-sample";
+/* Check that we can use an eyeglass function. */
+@import "list-files";
+$files: listFiles('src');
+@each $filename, $file in $files {
+    .file-#{$filename} {
+        content: '#{$file}';
+    }
+}

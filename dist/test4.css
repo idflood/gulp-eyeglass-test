@@ -1,0 +1,19 @@
+/* Check that eyeglass-sample adds a .sassy{} (import eyeglass sass file). */
+.sassy {
+  color: #c69; }
+
+/* Check that we can use an eyeglass function. */
+.file- {
+  content: "modules"; }
+
+.file-test1 {
+  content: "test1.scss"; }
+
+.file-test2 {
+  content: "test2.sass"; }
+
+.file-test3 {
+  content: "test3.sass"; }
+
+.file-test4 {
+  content: "test4.scss"; }
